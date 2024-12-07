@@ -205,7 +205,7 @@ function hasInfinityMult(tier) {
     function onBuyDimension(tier) {
         if (!player.break) {
             switch (tier) {
-                case 1: giveAchievement("You gotta start somewhere"); break;
+                case 1: giveAchievement("Snap back to reality"); break;
                 case 2: giveAchievement("100 antimatter is a lot"); break;
                 case 3: giveAchievement("Half life 3 confirmed"); break;
                 case 4: giveAchievement("L4D: Left 4 Dimensions"); break;
